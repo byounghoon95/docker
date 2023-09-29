@@ -4,6 +4,8 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/docker-test-server
+    overwrite: yes
+file_exists_behavior: OVERWRITE
 permissions:
   - object: /home/ubuntu/docker-test-server/
     owner: ubuntu
