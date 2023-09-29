@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @GetMapping("/")
     public String main() {
-        return "asdf12445563";
+        return "asdf123";
     }
 }
