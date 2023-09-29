@@ -11,9 +11,9 @@ spring:
   mvc:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url:
-    username:
-    password:
+    url: ${url}
+    username: ${username}
+    password: ${password}
   jpa:
     database: mysql
     database-platform: org.hibernate.dialect.MySQL8Dialect
