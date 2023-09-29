@@ -19,4 +19,5 @@ else
 fi
 
 echo "> Deploy - $JAR_PATH "
+cd ~
 docker compose up -d --build
