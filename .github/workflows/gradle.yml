@@ -11,7 +11,7 @@ env:
   BUCKET_NAME: docker-spring-cicd
   CODE_DEPLOY_APP_NAME: spring-docker
   DEPLOYMENT_GROUP_NAME: spring-docker
-  RESOURCE_PATH: /home/ubuntu/docker-test-server/src/main/resources/application.yml
+  RESOURCE_PATH: ./src/main/resources/application.yml
 
 permissions:
   contents: read
