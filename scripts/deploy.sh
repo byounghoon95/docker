@@ -20,4 +20,4 @@ fi
 
 echo "> Deploy - $JAR_PATH "
 cd ~
-docker compose up -d
+docker compose up -d --build
